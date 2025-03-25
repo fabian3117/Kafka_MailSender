@@ -2,6 +2,8 @@
 Este proyecto es una prueba de concepto que integra **Spring Boot** con **Kafka** para un servicio de facturación. En caso de fallo (simulado con una excepción), la cola de Kafka gestiona la contingencia.
 El microservicio envía datos por Kafka para el envío de un correo electrónico. Aunque el envío lo maneja el microservicio, los datos necesarios están definidos en el archivo `application.properties`.
 En la siguente revision de dara utilizad a la integracion con gRPC.
+
+
 ![Diagrama sin título drawio](https://github.com/user-attachments/assets/e900c5cf-4f7b-4ba5-8063-5150cb813c82)
 
 
